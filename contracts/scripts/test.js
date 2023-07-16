@@ -4,7 +4,7 @@ const { ethers } = require("ethers");
 const fs = require("fs");
 const path = require("path");
 
-const wethAddress = "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2";
+const wethAddress = "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c";
 const wethAbi = require("./abi/IWETH.json");
 
 const OUT_DIR = path.join(__dirname, "..", "out");
